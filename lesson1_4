@@ -1,0 +1,6 @@
+num = input("Enter your number: ")
+x = 0
+for a in num:
+    while int(a) > x:
+        x = int(a)
+print(x)
