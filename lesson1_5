@@ -1,0 +1,8 @@
+profit = int(input("Enter your profit: "))
+outlay = int(input("Enter your outlay: "))
+if profit > outlay:
+    profitability = profit-outlay
+    rent = profitability/profit
+    print(f"You have {profitability} profitability")
+    worker = int(input("How many people work: "))
+    print(f"{profitability/worker} for one worker")
