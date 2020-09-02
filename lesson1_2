@@ -1,0 +1,6 @@
+time_in_sec = int(input("Enter your time in sec: "))
+hours = time_in_sec // 3600
+res = time_in_sec % 3600
+min = res // 60
+sec = res % 60
+print(f"Now is {hours}:{min}:{sec} ")
