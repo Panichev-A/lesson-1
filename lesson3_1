@@ -1,0 +1,14 @@
+def div(*args):
+
+    try:
+        arg1 = int(input("Enter the number: "))
+        arg2 = int(input("Enter the number: "))
+        res = arg1 / arg2
+    except ValueError:
+        return 'Value error'
+    except ZeroDivisionError:
+        return "Wrong number! Zero can not be divided."
+
+    return res
+
+print(f'result:  {div()}')
